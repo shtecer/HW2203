@@ -30,9 +30,9 @@ public class Main {
         System.out.println("Минимальная сумма трат за неделю составила " + min + " рублей. Максимальная сумма трат за неделю составила " + max + " рублей");
 
         //3
-        int[] payments3 = Arrays.copyOf(payments2, payments2.length);
+        int[] payments3 = {1567, 2475, 6524, 1346, 7554};
         float med = 0f;
-        int summ2 = 0;
+        float summ2 = 0f;
         for (int i = 0; i < payments3.length; i++) {
             summ2 = summ2 + payments3[i];
         }
